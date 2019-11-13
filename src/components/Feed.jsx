@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 function Feed(props){
   return (
-    <div class="container align-center">
-      <style global jsx>{`
+    <div className="container">
+      <style jsx>{`
             div {
-              background-color: light-blue;
+              background-color: #ADD8E6;
             }
           `}</style>
       <h3>{props.title} - {props.name}</h3>
@@ -16,7 +16,7 @@ function Feed(props){
   );
 }
 
-Ticket.propTypes = {
+Feed.propTypes = {
   name: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   content: PropTypes.string.isRequired

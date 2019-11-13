@@ -4,13 +4,13 @@ import Feed from './Feed';
 var masterFeedList = [
   {
     name: 'Loewy',
-    title: 'oh hey waddup',
+    title: 'stonks on stonks',
     content: 'okay'
   },
   {
     name: 'Molly',
-    title: 'hello people of the human condition, i am totally not a snitch',
-    content: 'gonna narc so hard on these fools'
+    title: 'not stonks on top of things that are not stonks',
+    content: 'not okay'
   },
 
 ];
