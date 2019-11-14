@@ -1,11 +1,17 @@
 import React from 'react';
+import stonks from '../assets/images/stonks.jpg';
 
 
 
 function Profile(){
   return (
     <div>
-      <h3>Profile goes here stonks</h3>
+      <style jsx>{`
+      div {
+        float: right;
+      }
+      `}</style>
+      <img src={stonks}/>
     </div>
   );
 } 
